@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: 'Arial Black', sans-serif;
+  background: #0e0e0e;
+  color: #e7e7e7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #000;
+  border-bottom: 3px solid #00ff66;
+}
+
+.logo {
+  height: 60px;
+}
+
+.menu-btn {
+  color: #00ff66;
+  font-weight: bold;
+  cursor: default;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #222;
+}
+
+.countdown h1 {
+  font-size: 3rem;
+  color: #00ff66;
+}
+.countdown p {
+  color: #ccc;
+}
+
+.alerta h2 {
+  font-size: 2rem;
+  color: #ff4444;
+}
+.alerta span {
+  font-weight: bold;
+}
+.alerta blockquote {
+  font-style: italic;
+  color: #999;
+  margin-top: 1rem;
+}
+
+.vision h3 {
+  color: #00ff66;
+}
+.vision p {
+  font-size: 1.2rem;
+}
+
+.plan h2 {
+  color: #fff;
+}
+.pasos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.pasos div {
+  background: #111;
+  padding: 1rem;
+  border-left: 4px solid #00ff66;
+}
+
+.fases div {
+  background: #111;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 4px solid #ffaa00;
+}
+
+.form-fake form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 8px;
+}
+input, textarea {
+  padding: 0.8rem;
+  background: #000;
+  border: 2px solid #00ff66;
+  color: #fff;
+  border-radius: 4px;
+}
+button {
+  background: #00ff66;
+  color: #000;
+  font-weight: bold;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #00cc55;
+}
+
+footer {
+  padding: 1.5rem;
+  background: #000;
+  color: #888;
+  text-align: center;
+  font-size: 0.9rem;
+}
+a {
+  color: #00ff66;
+  text-decoration: none;
+}
